@@ -1,0 +1,12 @@
+### create a new todo
+
+POST http://localhost:3000/todos/signup
+Content-Type: application/json
+{
+"email":"fdfdfd@asdf",
+"password":"fsfdgdgd",
+ "title":"string",
+ "description":"string",
+"status":"boolean"
+
+}
